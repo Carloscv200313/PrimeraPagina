@@ -54,7 +54,7 @@ body {
 }
 
 .cont h1 {
-    color: white;
+    color: rgb(196, 210, 48);
     display: flex;
     justify-content: center;
 }
