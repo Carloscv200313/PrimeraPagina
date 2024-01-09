@@ -1,7 +1,8 @@
 body {
-    background-image: url("../imag/fondo.gif");
+    /*background-image: url("../imag/fondo.gif");
     background-size: contain;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background-color: #000;
 }
 
 .lema {
@@ -15,8 +16,8 @@ body {
 }
 
 .logo img {
-    height: 150px;
-    width: 300px;
+    height: 50%;
+    width: 50%;
 }
 
 .contenedor {
@@ -24,25 +25,32 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .cont_personaje {
-    width: 30%;
-    height: 400px;
     background: rgb(0, 0, 0);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .cont {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-
+.imagen{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .imagen img {
     height: 350px;
     width: 200px;
-    margin: 30px;
 }
 
 .cont h1 {
@@ -53,4 +61,13 @@ body {
 
 .cont p {
     color: white;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+@media (min-width: 425px)and (max-width:768px) {
+    .cont_personaje {
+        display: flex;
+        flex-direction: column;
+    }
 }
