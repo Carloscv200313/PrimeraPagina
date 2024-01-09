@@ -1,0 +1,56 @@
+body {
+    background-image: url("../imag/fondo.gif");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.lema {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.lema h1 {
+    font-size: 50px;
+}
+
+.logo img {
+    height: 150px;
+    width: 300px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cont_personaje {
+    width: 30%;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont {
+    width: 50%;
+}
+
+.imagen img {
+    height: 350px;
+    width: 200px;
+    margin: 30px;
+}
+
+.cont h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cont p {
+    color: white;
+}
