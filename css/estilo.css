@@ -1,8 +1,8 @@
 body {
-    /*background-image: url("../imag/fondo.gif");
+    background-image: url("../imag/fondo.gif");
     background-size: contain;
-    background-attachment: fixed;*/
-    background-color: #000;
+    background-attachment: fixed;
+    
 }
 
 .lema {
